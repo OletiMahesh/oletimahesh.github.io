@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        #form-iframe{
+            width: 100%;
+            height: 100%;
+            border: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+    <link href="https://giologist.github.io/article-react-reddit-widget/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+        <h1>Title</h1>
+        <iframe scrolling="no" src="http:localhost:3000"></iframe>
+    </div>
+    <iframe id="form-iframe" src="http:localhost:3000/?color=blue"></iframe>
+    <div class="reddit_widget" data-subreddit="SUBREDDIT_HERE"></div>
+    <script src="https://giologist.github.io/article-react-reddit-widget/index.js"></script>
+  </body>
+</html>
